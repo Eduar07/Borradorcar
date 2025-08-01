@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+  /* 🎨 Colores */
+  --color-negro: #242731;
+  --color-azul: #4776d0;
+  --color-morado: #A162F7;
+  --color-gris: #B1B5C3;
+  --color-background: #F5F5F5;
+  --color-white:#FFFFFF;
+
+  /* 🔠 Tipografías */
+  --font-dm-sans: 'DM Sans', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+
+  /* 🔡 Pesos tipográficos */
+  --font-weight-bold: 700;
+
+  /* 📏 Tamaños de texto (px to rem) — base: 16px */
+  --text-xl: 1.875rem;  /* 30px */
+  --text-lg: 1.25rem;   /* 20px */
+  --text-base: 1.125rem;/* 18px */
+  --text-sm: 1rem;      /* 16px */
+}
+body{
+  background-color:var(--color-background);
+}
